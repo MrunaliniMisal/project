@@ -25,18 +25,19 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">Home</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Category
-            <!--<span class="caret"></span>--></a>
+          <li><a href="#home">HOME</a></li>
+          <!--<li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">COLLECTION
+            <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Clothes</a></li>
+              <li><a href="#clothes">Clothes</a></li>
               <li><a href="#">Jewellery</a></li>
               <li><a href="#">Bags</a></li>
               <li><a href="#">Home Decore</a></li>
             </ul>
-          </li>
-          <li><a href="#pricing">PRICING</a></li>
+          </li>-->
+          <li><a href="#collection">COLLECTION</a></li>
+          <li><a href="#services">SERVICES</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
@@ -44,26 +45,20 @@
   </nav>
   <!--nav-->
   <!--main heading-->
-<div class="jumbotron text-center">
+<div class="jumbotron text-center" id="home">
   <h1>$iddhi's Collection</h1> 
-  <p class="text-muted">Welcome To Our Collection</p> 
   <form class="form-inline">
-    <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">Subscribe</button>
-      </div>
-    </div>
+        <button type="button" class="btn btn-danger">Welcome To Our $iddhi's Collection</button>
   </form>
 </div>
 
 <div class="main">
-  <img src="https://mawisvintage.files.wordpress.com/2014/09/lets-go-shopping-banner.jpg" alt="1" width="100%" height="500px" class="responsive">
+  <img src="https://mawisvintage.files.wordpress.com/2014/09/lets-go-shopping-banner.jpg" alt="1" width="100%" height="550px" class="responsive">
   </div>
 <!--main heading-->
   <!--collection-->
-  <div class="container-fluid text-center collect-color">
-    <h2>Our Collection</h2>
+  <div class="container-fluid text-center collect-color" id="collection">
+    <h2 id="collection">Our Collection</h2>
     <div class="row text-center">
       <div class="col-sm-3">
         <div class="thumbnail">
@@ -74,7 +69,7 @@
       <div class="col-sm-3">
         <div class="thumbnail">
           <img src="https://media.weddingz.in/images/8e0f0749e27c554be8091b5b49e195bf/Opulent-Bridal-Traditional-Jewellery-Collection-scaled.jpg" class="responsive">  
-           <p><button class="btn">Jewellery</button></p>
+           <p><button class="btn btn-danger">Jewellery</button></p>
         </div>
       </div>
       <div class="col-sm-3">
@@ -95,7 +90,7 @@
    <!--collection-->
    <!--Services-->
    <div class="container-fluid text-center Service">
-    <h2>Services</h2>
+    <h2 id="services">Services</h2>
     <h4 class="text-muted">That we offer</h4>
     <br>
     <div class="row">
@@ -148,13 +143,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-    <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+    <h4>"Received My Order,It's Nice...Thankyou!!"</h4>
     </div>
     <div class="item">
-      <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+      <h4>"One word... WOW!!"</h4>
     </div>
     <div class="item">
-      <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+      <h4>"Thankyou For Safe And Good Quality Product...!!"</h4>
     </div>
   </div>
 
@@ -171,12 +166,15 @@
 <!--footer-->
 <div class="container-fluid footer">
  <div class="text-center st-footer">
-   <i class="fa fa-facebook-official"></i>
+   <h2 id="contact">Contact</h2>
+   <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.409768595652!2d73.76983901484323!3d18.55555598738863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bec7f38befdf%3A0xcec0caa280eb630f!2sAscent%20Apartment!5e0!3m2!1sen!2sin!4v1600411235817!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+   </div>
+   <div class="icon-footer">
    <i class="fa fa-whatsapp"></i>
-   <i class="fa fa-twitter"></i>
-   <i class="	glyphicon glyphicon-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <i class="glyphicon glyphicon-phone">7757027905/9326914635</i>&nbsp;&nbsp;
+    <i class="glyphicon glyphicon-phone">7757027905/9326914635</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      <i class="fa fa-home">Ascent Apartment,Behind Renault Showroom,Baner,Pune</i> 
+     </div>
  </div>
 </div>
 <div class="container-fluid foo">
@@ -185,3 +183,4 @@
 <!--footer-->
 </body>
 </html>
+
